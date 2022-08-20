@@ -1,0 +1,26 @@
+@media(prefers-color-scheme: dark){
+   :root{
+    --primary-background: #151437;
+    --primary-title-color: white;
+   }
+   .logo::before{
+      content: url('../images/logo-dark.png');
+   }
+   
+}
+
+@media(max-width: 1200){
+   .shape_1{
+   top: -250px;
+}.shape_2{
+   top: 50px;
+}
+   
+
+.about__content{
+   padding: 30px;
+}
+}
+@media(max-width: 992){
+
+}
